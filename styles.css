@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+
+body {
+  font-size: 19px;
+  margin: 30px 150px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Alkalami", serif;
+}
+
+div.banner {
+  text-align: center;
+}
+
+div.banner img {
+  height: 800px;
+  width: 800px;
+}
+
+div.banner i {
+  margin-right: 7px;
+}
+
+.fav-albums {
+  margin-top: 50px;
+}
+
+.fav-albums h2.heres {
+  font-family: "Alkalami", serif;
+}
+
+.Albums-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.card p,
+.card h2 {
+  padding: 0px 15px;
+}
+
+.card button {
+  padding: 3px 7px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  color: blue;
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
